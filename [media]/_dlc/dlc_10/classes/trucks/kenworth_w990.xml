@@ -67,7 +67,7 @@
 <Truck>
 	<TruckData
 		BackSteerSpeed="0.025"
-		DiffLockType="Installed"
+		DiffLockType="Always"
 		EngineIconMesh="env/engine_default"
 		EngineIconScale="1.5"
 		EngineStartDelay="0.8"
@@ -76,8 +76,7 @@
 		Responsiveness="0.45"
 		SteerSpeed="0.025"
 		TruckImage="kenworth990mchr"
-		TruckType="HEAVY"
-		
+		TruckType="HIGHWAY"
 	>
 		<WinchUpgradeSocket Default="w_heavy_trucks_default" IsUpgradable="true" Type="winches_heavy_trucks" />
 		<Wheels
@@ -165,7 +164,7 @@
 			ParentFrame="BoneCabin_cdt"
 		/>
 		<Dashboard>
-			<Gauge Dir="(-0.890; 0.456; 0.014)" InputRange="(0;140)" InputType="speed" Mesh="trucks/arrows/kenworth_w990_arrow_1" Org="(2.864; 2.026; 0.524)" OutputAngles="(-140; 70)" />
+			<Gauge Dir="(-0.890; 0.456; 0.014)" InputRange="(0;140)" InputType="speed" Mesh="trucks/arrows/kenworth_w990_arrow_1" Org="(2.864; 2.026; 0.524)" OutputAngles="(-125; 70)" />
 		
 			<Gauge Damping="0.99" Dir="(-0.841;0.497;0.212)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_w990_arrow_2" Org="(2.794; 2.094; -0.048)" OutputAngles="(-120; 120)" />
 			<Gauge Damping="0.99" Dir="(-0.841;0.497;0.212)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_w990_arrow_2" Org="(2.778; 2.094; -0.110)" OutputAngles="(-149; 34)" />
@@ -281,14 +280,14 @@
 	<PhysicsModel Mesh="trucks/kenworth_w990">
 		<NetSync Legacy="false" />
 		<Body
-			CenterOfMassOffset="(0; 0; 0)"
+			CenterOfMassOffset="(0; -0.4; 0)"
 			ImpactType="Truck"
 			Mass="4000"
 			ModelFrame="BoneChassis_cdt"
 			NetSync="pv"
 		>
 			<Body
-				CenterOfMassOffset="(0; 0; 0)"
+				CenterOfMassOffset="(0; -0.1; 0)"
 				ImpactType="Truck"
 				Mass="4000"
 				ModelFrame="BoneCabin_cdt"
@@ -511,9 +510,9 @@
 			<CameraPos FOV="32.0" Interior="true" Name="mirror_mount" Position="(4.15; 2.35; -1.05)" InterestPosition="(5.29; 2.72; 1.1)" />
 		</CustomizationCameras>
 		
-		<AddonSockets DefaultAddon="kenworth_w990_diff_lock_default">
+		<!-- <AddonSockets DefaultAddon="kenworth_w990_diff_lock_default">
 			<Socket Names="Kenworth990DiffLock" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />
-		</AddonSockets>
+		</AddonSockets> -->
 		
 		<AddonSockets DefaultAddon="kenworth_w990_wings_default">
 			<Socket Names="KenworthW990Wings" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />

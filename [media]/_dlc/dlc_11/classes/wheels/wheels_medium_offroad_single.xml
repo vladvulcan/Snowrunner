@@ -1,6 +1,6 @@
 <_templates Include="trucks">
 	<TruckTire>
-		<Offroad _template="Medium" RearMassScale="2">
+		<Offroad _template="Medium">
 			<WheelTracks _template="Default" />
 			<WheelTracks _template="Default" Rear="true" />
 			<WheelSoftness _template="Stiff" />
@@ -22,7 +22,7 @@
 			<GameData
 				Price="4900"
 				UnlockByExploration="false"
-				UnlockByRank="8"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_OFFROAD_DESC" UiName="UI_TIRE_MEDIUM_OFFROAD_SINGLE_10_NAME" />
 			</GameData>
@@ -32,7 +32,7 @@
 			<GameData
 				Price="5100"
 				UnlockByExploration="false"
-				UnlockByRank="8"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_OFFROAD_DESC" UiName="UI_TIRE_MEDIUM_OFFROAD_SINGLE_11_NAME" />
 			</GameData>
@@ -42,7 +42,7 @@
 			<GameData
 				Price="5700"
 				UnlockByExploration="false"
-				UnlockByRank="8"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_OFFROAD_DESC" UiName="UI_TIRE_MEDIUM_OFFROAD_SINGLE_12_NAME" />
 			</GameData>
@@ -52,12 +52,12 @@
         <!-- Offroad rims -->
         <TruckRim Mesh="wheels/rim_medium_offroad_single_10" Name="JAT OMS I">
 			<GameData>
-				<UiDesc UiDesc="UI_RIM_JAT_DESC" UiName="UI_RIM_MEDIUM_OFFROAD_SINGLE_10_NAME" />
+				<UiDesc UiDesc="UI_TIRE_HIGHWAY_DESC" UiName="UI_RIM_MEDIUM_OFFROAD_SINGLE_10_NAME" />
 			</GameData>
 		</TruckRim>
         <TruckRim Mesh="wheels/rim_medium_offroad_single_11" Name="JAT OMS II">
 			<GameData>
-				<UiDesc UiDesc="UI_RIM_JAT_DESC" UiName="UI_RIM_MEDIUM_OFFROAD_SINGLE_11_NAME" />
+				<UiDesc UiDesc="UI_TIRE_HIGHWAY_DESC" UiName="UI_RIM_MEDIUM_OFFROAD_SINGLE_11_NAME" />
 			</GameData>
 		</TruckRim>
 		<TruckRim Mesh="wheels/rim_medium_offroad_double_front_1" Name="rim_offroad_1">

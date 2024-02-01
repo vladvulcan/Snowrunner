@@ -195,7 +195,7 @@
 			</GameData>
 		</TruckRim>
 
-		 <!-- Highway rims -->
+		 <!-- New Rims -->
 		 <TruckRim Mesh="wheels/rim_medium_highway_double_10" Name="JAT HMD I">
 			<GameData>
 				<UiDesc UiDesc="UI_RIM_JAT_DESC" UiName="UI_RIM_MEDIUM_HIGHWAY_DOUBLE_10_NAME" />
@@ -206,7 +206,6 @@
 				<UiDesc UiDesc="UI_RIM_JAT_DESC" UiName="UI_RIM_MEDIUM_HIGHWAY_DOUBLE_11_NAME" />
 			</GameData>
 		</TruckRim>
-        <!-- Offroad rims -->
         <TruckRim Mesh="wheels/rim_medium_offroad_double_10" Name="JAT OMD I">
 			<GameData>
 				<UiDesc UiDesc="UI_RIM_JAT_DESC" UiName="UI_RIM_MEDIUM_OFFROAD_DOUBLE_10_NAME" />

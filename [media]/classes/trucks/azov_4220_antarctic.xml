@@ -443,6 +443,9 @@
 		Price="111600"
 		UnlockByExploration="false"
 		UnlockByRank="26"
+		FrameAlign="BoneBack_cdt"
+		FrameAlignOffset="(-3; 0; 0)"
+		ResetTruckAfterGateway="true"
 	>
 		<WinchSocket Pos="(5.372; 1.521; -0.393)" />
 		<WinchSocket Pos="(5.372; 1.521; 0.393)" />

@@ -8,7 +8,6 @@
 			<Constraint Type="Rigid" />
 			<Body
 				Collisions="None"
-				LinearDamping="5"
 				Mass="20"
 				ModelFrame="BoneWheel_cdt"
 			>

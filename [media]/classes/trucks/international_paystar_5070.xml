@@ -142,17 +142,17 @@
 			<DamageArea Type="Engine" Min="(1.5; 1.15; -0.6)" Max="(2.8; 2.100; 0.6)" ParentFrame="BoneCabin_cdt" />
 			<DamageArea Type="FuelTank" Min="(-0.7; 0.6; -1.2)" Max="(0.87; 1.050; 1.2)" ParentFrame="BoneCabin_cdt" />
 		</Damage>
-		<CompatibleWheels OffsetZ="0.11" Scale="0.58" Type="wheels_heavy_double1" />
-		<CompatibleWheels OffsetZ="0.11" Scale="0.58" Type="wheels_heavy_double2" />
-		<CompatibleWheels  Scale="0.58" Type="wheels_heavy_single" />
+		<CompatibleWheels OffsetZ="0.11" RearOffsetZ="-0.02" Scale="0.58" Type="wheels_heavy_double1" />
+		<CompatibleWheels OffsetZ="0.11" RearOffsetZ="-0.02" Scale="0.58" Type="wheels_heavy_double2" />
+		<CompatibleWheels  Scale="0.58" RearOffsetZ="-0.13" Type="wheels_heavy_single" />
 
-		<CompatibleWheels OffsetZ="0.14" Scale="0.58" Type="wheels_heavy_highway_double" />
-		<CompatibleWheels OffsetZ="0.11" Scale="0.58" Type="wheels_heavy_offroad_double" />
-		<CompatibleWheels OffsetZ="0.14" Scale="0.58" Type="wheels_heavy_allterrain_double" />
+		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.03" Scale="0.58" Type="wheels_heavy_highway_double" />
+		<CompatibleWheels OffsetZ="0.11" RearOffsetZ="-0.02" Scale="0.58" Type="wheels_heavy_offroad_double" />
+		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.02" Scale="0.58" Type="wheels_heavy_allterrain_double" />
 
-		<CompatibleWheels OffsetZ="0.14" Scale="0.58" Type="wheels_heavy_offroad_single" />
-		<CompatibleWheels OffsetZ="-0.03" Scale="0.58" Type="wheels_heavy_mudtires_single" />
-		<CompatibleWheels OffsetZ="0.14" Scale="0.58" Type="wheels_heavy_mudtires_single2" />
+		<CompatibleWheels Scale="0.58" RearOffsetZ="-0.11" Type="wheels_heavy_offroad_single" />
+		<CompatibleWheels OffsetZ="-0.03" RearOffsetZ="-0.09" Scale="0.58" Type="wheels_heavy_mudtires_single" />
+		<CompatibleWheels Scale="0.58" RearOffsetZ="-0.09" Type="wheels_heavy_mudtires_single2" />
 
 		<!-- <CompatibleWheels Scale="0.5" Type="wheels_heavy_double1" /> -->
 		<Camera Center="(-2; 0; 0)" ParentFrame="BoneCabin_cdt">

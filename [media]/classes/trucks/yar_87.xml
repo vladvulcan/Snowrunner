@@ -164,7 +164,7 @@
 		</Damage>
 		<CompatibleWheels OffsetZ="0.08" Scale="0.62" Type="wheels_scout_yar_871" />
 		<CompatibleWheels OffsetZ="0.02" Scale="0.62" Type="wheels_scout_yar_87" />
-		<CompatibleWheels OffsetZ="0.08" Scale="0.62" Type="wheels_scout_mudtires" />
+		<CompatibleWheels OffsetZ="0.08" Scale="0.62" Type="wheels_scout_yar87_mudtires" />
 		<Camera Center="(-1.6; 0; 0)" Radius="1.2">
 			<Cockpit
 				_template="Default"

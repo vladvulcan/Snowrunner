@@ -129,7 +129,8 @@
 			/>
 		</Damage>
 		<CompatibleWheels Scale="0.6" Type="wheels_scout_btr" />
-		<CompatibleWheels OffsetZ="0.1" Scale="0.6" Type="wheels_superheavy_mudtires" />
+		<CompatibleWheels OffsetZ="0.1" Scale="0.6" Type="wheels_heavy_mudtires_single" />
+		<CompatibleWheels OffsetZ="0.1" Scale="0.6" Type="wheels_heavy_mudtires_single2" />
 		<Camera Center="(-1.5; 0; 0)" Radius="1.2">
 			<Cockpit
 				_template="Default"

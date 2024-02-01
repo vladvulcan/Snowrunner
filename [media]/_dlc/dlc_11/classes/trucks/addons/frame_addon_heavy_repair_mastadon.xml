@@ -54,11 +54,11 @@
 				/>
 			</Group>
 			<Group FoldingDelay="0.2" Id="anchors_position" UnfoldingDelay="0.2">
-				<Constraint Name="RightAnchorBase" InitialFixFix="true" TerminalFix="true" Position="179.9" />
-				<Constraint Name="LeftAnchorBase" InitialFixFix="true" TerminalFix="true" Position="179.9" />
+				<Constraint Name="RightAnchorBase" InitialFix="true" TerminalFix="true" Position="179.9" />
+				<Constraint Name="LeftAnchorBase" InitialFix="true" TerminalFix="true" Position="179.9" />
 			</Group>
 			<Group FoldingDelay="0.2" Id="anchors_push" UnfoldingDelay="0.2">
-				<Constraint Name="Anchor" InitialFixFix="true" TerminalFix="true" Position="-1" />
+				<Constraint Name="Anchor" InitialFix="true" TerminalFix="true" Position="-1" />
 			</Group>
 		</Chain>
 	</PoweredConstraints>

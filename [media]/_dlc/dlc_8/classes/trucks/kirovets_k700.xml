@@ -216,7 +216,7 @@
 						MinLimit="-12"
 						MaxLimit="12"
 					>
-						<Motor Damping="800000" Spring="10000" Type="Spring" />
+						<Motor Damping="800" Spring="1000" Type="Spring" />
 					</Constraint>
 				</Body>
 			</Body>

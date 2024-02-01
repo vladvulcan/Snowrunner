@@ -93,6 +93,8 @@
 				<UiDesc UiDesc="UI_RIM_SCOUT_OFFROAD_2_DESC" UiName="UI_RIM_SCOUT_OFFROAD_2_NAME" />
 			</GameData>
 		</TruckRim>
+
+		<!-- New Rims -->
 		<TruckRim Mesh="wheels/rim_scout_offroad_10" Name="JAT OS I">
 			<GameData>
 				<UiDesc UiDesc="UI_RIM_JAT_DESC" UiName="UI_RIM_SCOUT_OFFROAD_10_NAME" />

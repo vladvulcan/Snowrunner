@@ -64,14 +64,14 @@
 			DefaultTire="mudtires_2"
 			DefaultWheelType="wheels_heavy_single2"
 		>
-			<Wheel _template="FrontWheel" Pos="(3.88; 0.666; 1.33)" ParentFrame="BoneSuspensionFL_cdt" />
-			<Wheel _template="FrontWheel" RightSide="true" Pos="(3.88; 0.666; 1.33)" ParentFrame="BoneSuspensionFR_cdt" />
-			<Wheel _template="FrontWheel" Pos="(2.327; 0.666; 1.33)" ParentFrame="BoneSuspensionFL_cdt" />
-			<Wheel _template="FrontWheel" RightSide="true" Pos="(2.327; 0.666; 1.33)" ParentFrame="BoneSuspensionFR_cdt" />
-			<Wheel _template="RearWheel" Pos="(-2.016; 0.666; 1.33)" ParentFrame="BoneSuspensionRL_cdt" />
-			<Wheel _template="RearWheel" RightSide="true" Pos="(-2.016; 0.666; 1.33)" ParentFrame="BoneSuspensionRR_cdt" />
-			<Wheel _template="RearWheel" Pos="(-3.569; 0.666; 1.33)" ParentFrame="BoneSuspensionRL_cdt" />
-			<Wheel _template="RearWheel" RightSide="true" Pos="(-3.569; 0.666; 1.33)" ParentFrame="BoneSuspensionRR_cdt" />
+			<Wheel _template="FrontWheel" Pos="(3.88; 0.7; 1.33)" ParentFrame="BoneSuspensionFL_cdt" />
+			<Wheel _template="FrontWheel" RightSide="true" Pos="(3.88; 0.7; 1.33)" ParentFrame="BoneSuspensionFR_cdt" />
+			<Wheel _template="FrontWheel" Pos="(2.327; 0.7; 1.33)" ParentFrame="BoneSuspensionFL_cdt" />
+			<Wheel _template="FrontWheel" RightSide="true" Pos="(2.327; 0.7; 1.33)" ParentFrame="BoneSuspensionFR_cdt" />
+			<Wheel _template="RearWheel" Pos="(-2.016; 0.68; 1.33)" ParentFrame="BoneSuspensionRL_cdt" />
+			<Wheel _template="RearWheel" RightSide="true" Pos="(-2.016; 0.68; 1.33)" ParentFrame="BoneSuspensionRR_cdt" />
+			<Wheel _template="RearWheel" Pos="(-3.569; 0.68; 1.33)" ParentFrame="BoneSuspensionRL_cdt" />
+			<Wheel _template="RearWheel" RightSide="true" Pos="(-3.569; 0.68; 1.33)" ParentFrame="BoneSuspensionRR_cdt" />
 		</Wheels>
 		<SuspensionSocket
 			Default="aramatsu_forester_suspension_default"

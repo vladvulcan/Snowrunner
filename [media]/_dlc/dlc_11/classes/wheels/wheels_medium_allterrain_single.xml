@@ -1,6 +1,6 @@
 <_templates Include="trucks">
 	<TruckTire>
-		<Allterrain _template="Medium" RearMassScale="2">
+		<Allterrain _template="Medium">
 			<WheelTracks _template="Default" />
 			<WheelTracks _template="Default" Rear="true" />
 			<WheelSoftness _template="Stiff" />
@@ -21,7 +21,7 @@
 			<GameData
 				Price="3800"
 				UnlockByExploration="false"
-				UnlockByRank="6"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_ALLTERRAIN_DESC" UiName="UI_TIRE_MEDIUM_ALLTERRAIN_SINGLE_10_NAME" />
 			</GameData>
@@ -31,7 +31,7 @@
 			<GameData
 				Price="4200"
 				UnlockByExploration="false"
-				UnlockByRank="6"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_ALLTERRAIN_DESC" UiName="UI_TIRE_MEDIUM_ALLTERRAIN_SINGLE_11_NAME" />
 			</GameData>
@@ -41,7 +41,7 @@
 			<GameData
 				Price="4500"
 				UnlockByExploration="false"
-				UnlockByRank="6"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_ALLTERRAIN_DESC" UiName="UI_TIRE_MEDIUM_ALLTERRAIN_SINGLE_12_NAME" />
 			</GameData>

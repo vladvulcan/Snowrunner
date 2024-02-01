@@ -464,7 +464,7 @@
 			<Socket Names="FrameAddonTank" Offset="(-3.165; 1.339; 0)" ParentFrame="BoneChassis_cdt">
 				<AddonsShift Offset="(-0.588; 0; 0)" Types="RoyalBM17CabinProtector" />
 			</Socket>
-			<Socket Names="FrameAddonMaintainer" NamesBlock="Trailer, RoyalBM17CabinProtector" Offset="(-2.85; 0.307; 0)" ParentFrame="BoneChassis_cdt" />
+			<Socket Names="FrameAddonMaintainer" NamesBlock="MetalDetector, Trailer, RoyalBM17CabinProtector" Offset="(-2.85; 0.307; 0)" ParentFrame="BoneChassis_cdt" />
 			<Socket Names="FrameAddonSeismicVibrator" NamesBlock="MinicraneUS, Trailer, RoyalBM17CabinProtector" Offset="(-0.08; 1.341; 0)" ParentFrame="BoneChassis_cdt" />
 			<Socket Names="BigCraneUs" NamesBlock="MetalDetector, MinicraneUS, Semitrailer, RoyalBM17CabinProtector" Offset="(-2.891; 1.442; 0)">
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.1; 0)" />

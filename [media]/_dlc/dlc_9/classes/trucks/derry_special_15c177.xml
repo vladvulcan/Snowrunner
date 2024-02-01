@@ -286,7 +286,7 @@
 		</Axles>
 	</TruckData>
 	<Rotator EngineTorqueFactor="0" Frame="BoneEngineFanRotator" RotationAxis="(0; 1; 0)" RotationSpeed="10" />
-	<Snorkel Origin="(1.180; 1.751; 1.173)" ParentFrame="BoneChassis_cdt" />
+	<!-- <Snorkel Origin="(1.180; 1.751; 1.173)" ParentFrame="BoneChassis_cdt" /> -->
 	<PhysicsModel Mesh="trucks/derry_special_15c177">
 		<NetSync Legacy="false" />
 		<Body

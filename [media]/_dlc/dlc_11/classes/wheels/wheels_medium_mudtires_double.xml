@@ -21,7 +21,7 @@
 			<GameData
 				Price="5200"
 				UnlockByExploration="false"
-				UnlockByRank="13"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_MUDTIRES_DESC" UiName="UI_TIRE_MEDIUM_MUDTIRES_DOUBLE_10_NAME" />
 			</GameData>
@@ -31,7 +31,7 @@
 			<GameData
 				Price="5600"
 				UnlockByExploration="false"
-				UnlockByRank="13"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_MUDTIRES_DESC" UiName="UI_TIRE_MEDIUM_MUDTIRES_DOUBLE_11_NAME" />
 			</GameData>
@@ -41,7 +41,7 @@
 			<GameData
 				Price="5900"
 				UnlockByExploration="false"
-				UnlockByRank="13"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_MUDTIRES_DESC" UiName="UI_TIRE_MEDIUM_MUDTIRES_DOUBLE_12_NAME" />
 			</GameData>

@@ -5,12 +5,35 @@
 		BrokenWheelDamageMultiplier="2"
 		CriticalDamageThreshold="0.8"
 		DamageCapacity="280"
-		DeviationDelta=".005"
+		DeviationDelta=".01"
 		Name="kenworth_w990_suspension_default"
 	>
-		<Suspension Damping="0.35" Height="0.18" Strength="0.12" WheelType="front" BrokenSuspensionMax="0.2" DeviationMax="0.001" SuspensionMin="-0.2" />
-		<Suspension Damping="0.4" Height="0.18" Strength="0.02" WheelType="rear" BrokenSuspensionMax="0.15" DeviationMax="0.001" SuspensionMin="-0.1" />
-		<Suspension Damping="0.6" Height="0.0" Strength="0.017" WheelType="middle" BrokenSuspensionMax="0.2" DeviationMax=".3" SuspensionMin="-0.05" />
+		<Suspension 
+			Damping="0.15" 
+			Height="0.18" 
+			Strength="0.12" 
+			WheelType="front" 
+			BrokenSuspensionMax="0.2" 
+			DeviationMax="0.01"
+			SuspensionMin="-0.25" 
+			SuspensionMax="1.4"/>
+		<Suspension 
+			Damping="0.2" 
+			Height="0.2"
+			Strength="0.015" 
+			WheelType="rear" 
+			BrokenSuspensionMax="0.15" 
+			DeviationMax="0.01"
+			SuspensionMin="-0.3" 
+			SuspensionMax="1.4"/>
+		<Suspension 
+			Damping="0.6" 
+			Height="0.0" 
+			Strength="0.017" 
+			WheelType="middle" 
+			BrokenSuspensionMax="0.2" 
+			DeviationMax=".3" 
+			SuspensionMin="-0.1" />
 		<GameData
 			Price="6600"
 			UnlockByExploration="false"
@@ -33,9 +56,30 @@
 		Name="kenworth_w990_suspension_high"
 		UiName="UI_SUSPENSION_TYPE_HIGH_NAME"
 	>
-		<Suspension Damping="0.15" Height="0.32" Strength="0.10" WheelType="front" BrokenSuspensionMax="0.2" DeviationMax="0.001" SuspensionMin="-0.35" />
-		<Suspension Damping="0.2" Height="0.32" Strength="0.03" WheelType="rear" BrokenSuspensionMax="0.15" DeviationMax="0.001" SuspensionMin="-0.2" SuspensionMax="3.5" />
-		<Suspension Damping="0.6" Height="0.0" Strength="0.017" WheelType="middle" BrokenSuspensionMax="0.2" DeviationMax=".54" SuspensionMin="-0.05" />
+		<Suspension 
+			Damping="0.15" 
+			Height="0.32" 
+			Strength="0.10" 
+			WheelType="front" 
+			BrokenSuspensionMax="0.2" 
+			DeviationMax="0.01" 
+			SuspensionMin="-0.35" />
+		<Suspension 
+			Damping="0.2" 
+			Height="0.32" 
+			Strength="0.013" 
+			WheelType="rear" 
+			BrokenSuspensionMax="0.15" 
+			DeviationMax="0.01" 
+			SuspensionMin="-0.2" />
+		<Suspension 
+			Damping="0.6" 
+			Height="0.0" 
+			Strength="0.017" 
+			WheelType="middle" 
+			BrokenSuspensionMax="0.2" 
+			DeviationMax=".54" 
+			SuspensionMin="-0.1" />
 		<GameData
 			Price="7500"
 			UnlockByExploration="false"

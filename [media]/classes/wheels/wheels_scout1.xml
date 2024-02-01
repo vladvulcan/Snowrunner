@@ -60,6 +60,8 @@
 				<UiDesc UiDesc="UI_RIM_SCOUT_HIGHWAY_2_DESC" UiName="UI_RIM_SCOUT_HIGHWAY_2_NAME" />
 			</GameData>
 		</TruckRim>
+
+		<!-- New Rims -->
 		<TruckRim Mesh="wheels/rim_scout_highway_10_2" Name="JAT HS I">
 			<GameData>
 				<UiDesc UiDesc="UI_RIM_JAT_DESC" UiName="UI_RIM_SCOUT_HIGHWAY_10_NAME" />

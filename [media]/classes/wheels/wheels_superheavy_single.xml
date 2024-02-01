@@ -65,6 +65,8 @@
 				<UiDesc UiDesc="UI_RIM_SUPERHEAVY_MUDTIRES_3_DESC" UiName="UI_RIM_SUPERHEAVY_MUDTIRES_3_NAME" />
 			</GameData>
 		</TruckRim>
+
+		<!-- New Rims -->
 		<TruckRim Mesh="wheels/rim_superheavy_mudtires_10" Name="JAT MSH I">
 			<GameData>
 				<UiDesc UiDesc="UI_RIM_JAT_DESC" UiName="UI_RIM_SUPERHEAVY_MUDTIRES_10_NAME" />

@@ -1,6 +1,6 @@
 <_templates Include="trucks">
 	<TruckTire>
-		<Highway _template="Medium" RearMassScale="2">
+		<Highway _template="Medium">
 			<WheelTracks _template="Default" />
 			<WheelTracks _template="Default" Rear="true" />
 			<WheelSoftness _template="Stiff" />

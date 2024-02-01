@@ -83,16 +83,6 @@
 		</TruckTire>
 	</TruckTires>
 	<TruckRims>
-		<TruckRim Mesh="wheels/rim_medium_highway_double_10" Name="JAT HD I">
-			<GameData>
-				<UiDesc UiDesc="UI_RIM_JAT_DESC" UiName="UI_RIM_HEAVY_HIGHWAY_DOUBLE_10_NAME" />
-			</GameData>
-		</TruckRim>
-		<TruckRim Mesh="wheels/rim_medium_highway_double_11" Name="JAT HD II">
-			<GameData>
-				<UiDesc UiDesc="UI_RIM_JAT_DESC" UiName="UI_RIM_HEAVY_HIGHWAY_DOUBLE_11_NAME" />
-			</GameData>
-		</TruckRim>
 		<TruckRim Mesh="wheels/rim_medium_highway_allterrain_double_1" Name="rim_1">
 			<GameData>
 				<UiDesc UiDesc="UI_RIM_MEDIUM_DOUBLE_1_DESC" UiName="UI_RIM_MEDIUM_DOUBLE_1_NAME" />
@@ -121,6 +111,18 @@
 		<TruckRim Mesh="wheels/rim_medium_highway_allterrain_double_6" Name="rim_6">
 			<GameData>
 				<UiDesc UiDesc="UI_RIM_MEDIUM_DOUBLE_6_DESC" UiName="UI_RIM_MEDIUM_DOUBLE_6_NAME" />
+			</GameData>
+		</TruckRim>
+		
+		<!-- New Rims -->
+		<TruckRim Mesh="wheels/rim_medium_highway_double_10" Name="JAT HD I">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_JAT_DESC" UiName="UI_RIM_HEAVY_HIGHWAY_DOUBLE_10_NAME" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_medium_highway_double_11" Name="JAT HD II">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_JAT_DESC" UiName="UI_RIM_HEAVY_HIGHWAY_DOUBLE_11_NAME" />
 			</GameData>
 		</TruckRim>
 	</TruckRims>

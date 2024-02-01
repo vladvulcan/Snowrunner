@@ -161,8 +161,8 @@
 			<DamageArea Type="FuelTank" Min="(0.1; 0.58; -0.98)" Max="(1.1; 0.9; 0.98)" ParentFrame="BoneChassis_cdt" />
 		</Damage>
 		<CompatibleWheels OffsetZ="0.02" Scale="0.56" Type="wheels_scout_apache_1" />
-		<CompatibleWheels OffsetZ="0.02" Scale="0.56" Type="wheels_scout_offroad" />
-		<CompatibleWheels OffsetZ="0.02" Scale="0.56" Type="wheels_scout_mudtires" />
+		<CompatibleWheels OffsetZ="0.02" Scale="0.56" Type="wheels_scout_apache_offroad" />
+		<CompatibleWheels OffsetZ="0.02" Scale="0.56" Type="wheels_scout_yar87_mudtires" />
 		<Camera Center="(-1.6; 0; 0)" Radius="1.2">
 			<Cockpit
 				_template="Default"

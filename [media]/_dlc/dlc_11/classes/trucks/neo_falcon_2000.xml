@@ -4,6 +4,7 @@
 			ConnectedToHandbrake="true"
 			Location="rear"
 			Torque="default"
+			ParentFrame="BoneCabin_cdt"
 		/>
 		<FrontWheel
 			ConnectedToHandbrake="true"
@@ -12,7 +13,7 @@
 			SteeringCastor="0"
 			SteeringJointOffset="0.12"
 			Torque="full"
-			ParentFrame="BoneCabin_cdt"
+			ParentFrame="BoneChassis_cdt"
 		/>
 	</Wheel>
 	<Flare>
@@ -323,26 +324,6 @@
 						MinLimit="-30"
 						MaxLimit="30"
 					/>
-				</Body>
-				<Body Collisions="None" Mass="0.5" ModelFrame="BoneWipersR_cdt">
-					<Constraint
-						AxisLocal="(1; 0; 0)"
-						Type="Hinge"
-						MinLimit="-1.5"
-						MaxLimit="1"
-					>
-						<Motor Damping="0.8" Spring="0.001" Type="Spring" />
-					</Constraint>
-				</Body>
-				<Body Collisions="None" Mass="0.5" ModelFrame="BoneWipersL_cdt">
-					<Constraint
-						AxisLocal="(1; 0; 0)"
-						Type="Hinge"
-						MinLimit="-1.3"
-						MaxLimit="1.8"
-					>
-						<Motor Damping="0.8" Spring="0.001" Type="Spring" />
-					</Constraint>
 				</Body>
 			</Body>
 		</Body>

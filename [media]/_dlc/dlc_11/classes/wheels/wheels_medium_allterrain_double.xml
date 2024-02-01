@@ -22,7 +22,7 @@
 			<GameData
 				Price="3800"
 				UnlockByExploration="false"
-				UnlockByRank="6"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_ALLTERRAIN_DESC" UiName="UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_10_NAME" />
 			</GameData>
@@ -32,7 +32,7 @@
 			<GameData
 				Price="4200"
 				UnlockByExploration="false"
-				UnlockByRank="6"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_ALLTERRAIN_DESC" UiName="UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_11_NAME" />
 			</GameData>
@@ -42,7 +42,7 @@
 			<GameData
 				Price="4500"
 				UnlockByExploration="false"
-				UnlockByRank="6"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_ALLTERRAIN_DESC" UiName="UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_12_NAME" />
 			</GameData>
